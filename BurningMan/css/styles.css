@@ -1,0 +1,184 @@
+body
+{
+	padding: 0;
+	margin: 0;
+	font-family: 'Anton', sans-serif;
+	color: 000;
+}
+h1, h2, h3, h4, h5, h6
+{
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+ul, li
+{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+.container
+{
+	width: 1170px;
+	margin: 0 auto;  
+}
+.header
+{
+	background: url('../img/header-bg.jpg') no-repeat;
+	background-position: top;
+	background-attachment: center;
+	background-size: cover;
+}
+header a
+{
+	color: #fff;
+}
+.menu
+{
+	display: flex;
+}
+.menu li a
+{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+	letter-spacing: 0.1em;	
+}
+
+.menu li
+{
+	margin-right: 40px;
+}
+.tel
+{
+	font-size: 17px;
+	text-decoration: none;
+}
+.nav
+{
+	display: flex;
+	align-items: center;
+	padding-top: 57px
+}
+.tel
+{
+	margin-left: auto;
+	letter-spacing: 0.1em;
+}
+.logo
+{
+	margin-right: 69px
+}
+p
+{
+	padding: 0;
+	margin: 0;
+}
+.offer
+{
+	margin-top: 216px;
+}
+.offer p
+{
+	text-transform: uppercase;
+	color: #fff;
+}
+.firstP
+{
+	font-size: 30px;
+	letter-spacing: 3px;
+}
+.secondP
+{
+	font-size: 100px;
+}
+.button
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+	letter-spacing: 1.7px;
+	margin-top: 19px;
+	width: 238px;
+	border: 1px solid #fff;
+	text-align: center;
+	padding: 17px;
+	display: block;
+	border-radius: 20px;
+}
+
+.button:hover
+{
+	background-color: #FFD700;
+	border: 1px solid #FFD700;
+	transition-duration: 0.5s;
+}
+.header
+{
+	padding-bottom: 322px;
+}
+section
+{
+	padding-top: 113px;
+}
+.description
+{
+	display: flex;
+	justify-content: space-between;
+}
+.desc-left
+{
+	padding-right: 36px;
+}
+.description p
+{
+	font-family: 'Open Sans';
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: justify;
+}
+h2
+{
+	margin-bottom: 58px;
+}
+.about h2
+{
+	font-size: 50px;
+}
+
+.description h3
+{
+	margin-bottom: 19px;
+	font-size: 25px;
+}
+.gallery
+{
+	margin-top: 67px;
+	display: flex;
+	justify-content: space-between;
+}
+.gallery img:hover
+{
+	transform: scale(1.2);
+	transition-duration: 0.5s;
+	transition-property: all;
+	transition-timing-function: ease;
+}
+.contacts
+{
+	margin-top: 114px;
+	display: flex;
+	padding-bottom: 80px;
+}
+.contacts p
+{
+	font-family: 'Open Sans';
+	font-size: 15px;
+}
+.contacts p:first-child
+{
+	padding-right: 55px;
+}
+
+
